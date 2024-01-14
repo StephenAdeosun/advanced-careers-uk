@@ -74,42 +74,46 @@ function WorkObjective() {
           <Link to="/">
             {" "}
             <div className="flex mt-[16px]">
-              <h1 className='underline text-[#393FD9] text-[14px] font-[400]'>How to go about this assignment/task</h1>
+              <h1 className="underline text-[#393FD9] text-[14px] font-[400]">
+                How to go about this assignment/task
+              </h1>
               <img src={ExternalLink} alt="" />
             </div>
           </Link>
           <Link to="/">
             {" "}
             <div className="flex mt-[8px]">
-              <h1 className='underline text-[#393FD9] text-[14px] font-[400]'>More info about this tutor</h1>
+              <h1 className="underline text-[#393FD9] text-[14px] font-[400]">
+                More info about this tutor
+              </h1>
               <img src={ExternalLink} alt="" />
             </div>
           </Link>
         </div>
       </div>
 
-
       <div className="max-w-[348px] flex flex-col gap-[24px] m-auto  min-h-[1030px]">
-     
-          <h1 className="text-[#000] text-[16px] font-[700]">
-            Recommended Books
-          </h1>
-        
-        <div>
+        <h1 className="text-[#000] text-[16px] font-[700]">
+          Recommended Books
+        </h1>
+        <Link to="/">
+          <div>
             <img src={Rec1} alt="" />
-        </div>
-        <div>
+          </div>
+        </Link>
+
+        <Link to="/">
+          <div>
             <img src={Rec2} alt="" />
-        </div>
-        <div>
+          </div>
+        </Link>
+
+        <Link to="/">
+          <div>
             <img src={Rec3} alt="" />
-        </div>
-            
-        </div>
-
-
-
-
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }
