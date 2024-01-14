@@ -54,7 +54,7 @@ function RelatedCourses() {
       <div className="mt-[24px] gap-[36px]  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
         {courses.map((course) => (
           <div
-            className="max-w-[320px] border  rounded-[8px] border-[#BABEC3] min-h-[371px]"
+            className="max-w-[320px] border m-auto  rounded-[8px] border-[#BABEC3] min-h-[371px]"
             
           >
             <div className="w-full rounded-md h-[158px] ">
