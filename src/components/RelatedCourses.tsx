@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Rene1 from "../assets/Rene 1.svg";
 import Rene2 from "../assets/Rene 2.svg";

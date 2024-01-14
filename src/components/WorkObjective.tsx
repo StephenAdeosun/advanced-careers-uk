@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import ExternalLink from "../assets/external-small_minor.svg";
 import Rec1 from "../assets/Rec 1.svg";

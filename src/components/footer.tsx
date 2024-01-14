@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../assets/Footer Logo.svg";
 import Socials from "../assets/socials.svg";
 import {Link} from 'react-router-dom'
