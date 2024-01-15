@@ -39,7 +39,7 @@ function RelatedCourses() {
   ];
   return (
     <div className="md:mx-[48px] mt-[49px] mx-[12px]">
-      <div className="flex items-center justify-between">
+      <div className="flex mx-[12px] items-center justify-between">
         <h1 className="text-[#000] font-[500] text-[18px] leading-[20px]">
           Related Courses
         </h1>
