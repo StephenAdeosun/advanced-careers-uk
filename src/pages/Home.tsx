@@ -1,5 +1,6 @@
 
 import Topbar from "../components/Topbar";
+import SearchBar from "../components/SearchBar";
 import Sidebar from "../components/SideBar";
 import WeekLesson from "../components/WeekLesson";
 import WorkObjective from "../components/WorkObjective";
@@ -10,6 +11,7 @@ function Home() {
   return (
     <div>
         <Topbar />
+        <SearchBar />
       <div className="flex flex-col gap-[40px] md:flex-row">
         <Sidebar />
         <WeekLesson />
