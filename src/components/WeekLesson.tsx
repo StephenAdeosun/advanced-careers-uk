@@ -1,9 +1,11 @@
 import Prerequisite from "../assets/Primary fill.svg";
 import Video from "../assets/Video.svg";
+import Filter from "./Filter";
 function WeekLesson() {
   return (
     <div>
-      <div className="mx-[24px] md:mx-0 ">
+    <Filter />
+      <div className="mx-[24px] mt-[48px] md:mx-0 ">
         <h1 className="text-[#000] text-[14px] font-[400]">Week 1</h1>
         <h1 className="text-[#000] text-[30px] font-[700]">Lesson One</h1>
         <img src={Video} alt="" />
