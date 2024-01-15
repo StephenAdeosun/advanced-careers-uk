@@ -1,4 +1,4 @@
-
+import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
 import SearchBar from "../components/SearchBar";
 import Sidebar from "../components/SideBar";
@@ -10,8 +10,9 @@ import Footer from "../components/footer";
 function Home() {
   return (
     <div>
-        <Topbar />
-        <SearchBar />
+      <Navbar />
+      <Topbar />
+      <SearchBar />
       <div className="flex flex-col gap-[40px] md:flex-row">
         <Sidebar />
         <WeekLesson />
