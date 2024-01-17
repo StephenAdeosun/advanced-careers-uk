@@ -1,3 +1,4 @@
+import Nav from "../components/Nav";
 import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
 import SearchBar from "../components/SearchBar";
@@ -10,6 +11,7 @@ import Footer from "../components/footer";
 function Home() {
   return (
     <div>
+      <Nav />
       <Navbar />
       <Topbar />
       <SearchBar />
