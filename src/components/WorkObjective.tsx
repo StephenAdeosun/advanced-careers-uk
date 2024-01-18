@@ -73,7 +73,7 @@ function WorkObjective() {
           </h1>
           <Link to="/">
             {" "}
-            <div className="flex mt-[16px]">
+            <div className="flex mt-[16px] item">
               <h1 className="underline text-[#393FD9] text-[14px] font-[400]">
                 How to go about this assignment/task
               </h1>
