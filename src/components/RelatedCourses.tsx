@@ -87,7 +87,7 @@ function RelatedCourses() {
                 </div>
               </div>{" "}
             </div>
-          </div>
+        </div>
         ))}
       </div>
     </div>
