@@ -15,6 +15,7 @@ function RelatedCourses() {
       date: "May 2022- June 2023",
       location: "Summer Street, Houston",
     },
+    
     {
       img: Rene2,
       title: "Renewable Energy Management and Finance.",
